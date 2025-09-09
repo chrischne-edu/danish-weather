@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>The Weather in Denmark</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.11.10/lib/p5.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.11.10/lib/addons/p5.sound.min.js"></script>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+  </head>
+
+  <body class="font-['Roboto'] bg-white">
+    <div class="max-w-4xl mx-auto p-8">
+      <!-- Title and intro -->
+      <div class="mb-8">
+        <h1 class="text-4xl font-bold text-gray-900 mb-4">The Weather in Denmark</h1>
+        <p class="text-xl text-gray-700 max-w-2xl">
+          Denmark experiences a temperate oceanic climate with mild summers and cool winters. 
+          The country's weather is heavily influenced by westerly winds from the Atlantic Ocean, 
+          bringing frequent changes and moderate rainfall throughout the year. The visualization 
+          below shows real-time wind patterns across Denmark, illustrating how these maritime 
+          influences shape the nation's weather.
+        </p>
+      </div>
+
+      <!-- Sketch Container -->
+      <div >
+        <div id="sketch-container"></div>
+      </div>
+
+      <!-- Bottom text -->
+      <div>
+        <div class="max-w-2xl">
+          <p class="text-lg text-gray-700 mb-4">
+            The westerly winds that dominate Denmark's weather patterns are clearly visible in the 
+            wind flow visualization above. These winds, originating from the North Atlantic, 
+            moderate the country's temperatures and bring the characteristic changeability 
+            that Danes know so well.
+          </p>
+          <p class="text-lg text-gray-700">
+            Denmark's flat topography means that wind patterns flow relatively unobstructed 
+            across the landscape, creating the dynamic movements you observe in the particle 
+            simulation. The average wind speed varies between 4-6 m/s, with stronger winds 
+            common during autumn and winter months.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <script src="sketch.js"></script>
+  </body>
+</html>
