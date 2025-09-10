@@ -1,18 +1,18 @@
 # Danish Weather Visualization
 
-> **Course Example Project**: This repository serves as a template and example for students in the creative coding and data visualization course. It demonstrates how to build an interactive weather data visualization using real Danish weather data.
+> **Course Example Project**: This repository serves as a template and example for students in the CAS Generative Data Design course. It demonstrates how to build a weather data visualization using real Danish weather data.
 
 ## Project Description
 
-This project visualizes real-time wind patterns and weather data across Denmark using an interactive particle system. The visualization shows how maritime winds from the Atlantic Ocean influence Denmark's temperate oceanic climate, creating the characteristic weather patterns that define the region.
+This project visualizes wind patterns and weather data across Denmark using a particle system. The visualization shows how maritime winds from the Atlantic Ocean influence Denmark's temperate oceanic climate, creating the characteristic weather patterns that define the region.
 
 ## Purpose & Goal
 
 This example project demonstrates key techniques in creative coding and data visualization:
-- Working with real-world APIs and data sources
+- Working with real-world data from APIs (data saved locally from OpenWeatherMap API)
 - Combining geographic and meteorological data
-- Creating dynamic, interactive visualizations
-- Implementing particle systems for data representation
+- Creating dynamic visualizations
+- Using particle systems for data visualization
 - Integrating multiple web technologies (p5.js, d3.js, Tailwind CSS)
 
 ## Data Sources & Information
@@ -62,7 +62,7 @@ The visualization uses a particle system where 2000 particles move across the ca
 - **p5.js**: Canvas rendering and particle system animation
 - **d3.js**: Geographic projections and spatial data structures
 - **Tailwind CSS**: Responsive styling and typography
-- **HTML5**: Structure and semantic markup
+- **HTML**: Structure and semantic markup
 - **OpenWeatherMap API**: Real weather data source
 
 ## Setup & Installation
@@ -88,5 +88,3 @@ View the live visualization at: [https://chrischne-edu.github.io/danish-weather]
 **Version**: 1.0
 
 ---
-
-*This project demonstrates the integration of real-world data with creative coding techniques. Students can use this as a reference for building their own data visualizations with different datasets and creative approaches.*
