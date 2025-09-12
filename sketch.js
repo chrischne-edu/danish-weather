@@ -136,11 +136,11 @@ function drawCountry(country) {
 
   if (country.geometry.type === "Polygon") {
     noStroke();
-    fill(70,10);
+    fill(70,0,0,10);
     drawPolygon(country);
   } else if (country.geometry.type === "MultiPolygon") {
     noStroke();
-    fill(70,10);
+    fill(70,0,0,10);
     drawMultiPolygon(country);
   }
 }
