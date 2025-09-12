@@ -48,7 +48,7 @@ function setup() {
     })
     .addAll(weatherData);
 
-    background(255);
+    background(255,255,0);
 }
 
 function draw() {
