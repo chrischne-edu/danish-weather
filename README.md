@@ -1,4 +1,4 @@
-# Polish Weather Visualization
+# Danish Weather Visualization
 
 > **Course Example Project**: This repository serves as a template and example for students in the CAS Generative Data Design course. It demonstrates how to build a weather data visualization using real Danish weather data.
 
